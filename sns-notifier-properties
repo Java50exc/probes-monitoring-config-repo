@@ -1,1 +1,5 @@
 spring.config.import=kinesis.properties
+
+app.mail.notifier.subject=deviation of sensor 
+app.mail.notifier.text=sensor %d has value %f with deviation %f at %s
+app.mail.notifier.arn=arn:aws:sns:us-east-1:891377020122
